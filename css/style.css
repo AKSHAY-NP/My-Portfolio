@@ -3067,5 +3067,18 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
+.btn_download {
+	background-color: #847293;
+    border-radius: 10px;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	cursor: pointer;
+	font-size: 15.5px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn_download:hover {
+    background-image: -moz-linear-gradient(0deg, #837193 0%, #dbad95 100%);
+    background-image: -webkit-linear-gradient(0deg, #837193 0%, #dbad95 100%);
+    background-image: -ms-linear-gradient(0deg, #837193 0%, #dbad95 100%);}
